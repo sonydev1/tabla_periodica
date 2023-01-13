@@ -1,46 +1,47 @@
-import React from 'react'
-import Element from '../components/Element';
+import React from "react";
+import {Element} from "../components/Element";
 
-function PeriodicTable2({data}) {
+function PeriodicTable({ data }) {
   return (
-    <div className="  bg-sky-300  ">
+    <div className="p-4  bg-slate-200 shadow-xl rounded-lg">
+      
       <section className="flex gap-2 my-2 ">
         <Element elemen={data[0]} />
-
-        <div className="bg-slate-400 w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]  "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]  "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]  "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]  "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]  "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]  "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]    xl:w-[90px] xl:h-[90px] "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]    xl:w-[90px] xl:h-[90px] "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]    xl:w-[90px] xl:h-[90px] "></div>
-
-        <Element elemen={data[1]} className="font-light" />
+        <div className=" w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
+        <div className=" w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
+        <div className=" w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
+        <div className=" w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
+        <div className=" w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
+        <div className=" w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]  "></div>
+        <div className=" w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]  "></div>
+        <div className=" w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]  "></div>
+        <div className=" w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]  "></div>
+        <div className=" w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]  "></div>
+        <div className=" w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]  "></div>
+        <div className=" w-[61.78px] h-[80px]    xl:w-[90px] xl:h-[90px] "></div>
+        <div className=" w-[61.78px] h-[80px]    xl:w-[90px] xl:h-[90px] "></div>
+        <div className=" w-[61.78px] h-[80px]    xl:w-[90px] xl:h-[90px] "></div>
+        
+        <Element elemen={data[1]} />
+        
       </section>
-
+      
       <section className="flex gap-2 mb-2">
         <Element elemen={data[2]} />
         <Element elemen={data[3]} />
 
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
 
         <Element elemen={data[4]} />
         <Element elemen={data[5]} />
@@ -49,21 +50,20 @@ function PeriodicTable2({data}) {
         <Element elemen={data[8]} />
         <Element elemen={data[9]} />
       </section>
-
       <section className="flex gap-2 mb-2">
         <Element elemen={data[10]} />
         <Element elemen={data[11]} />
 
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
 
         <Element elemen={data[12]} />
         <Element elemen={data[13]} />
@@ -112,11 +112,10 @@ function PeriodicTable2({data}) {
         <Element elemen={data[52]} />
         <Element elemen={data[53]} />
       </section>
-
       <section className="flex gap-2 ">
         <Element elemen={data[54]} />
         <Element elemen={data[55]} />
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]    "></div>
         <Element elemen={data[71]} />
         <Element elemen={data[72]} />
         <Element elemen={data[73]} />
@@ -136,7 +135,7 @@ function PeriodicTable2({data}) {
       <section className="flex gap-2 my-2">
         <Element elemen={data[86]} />
         <Element elemen={data[87]} />
-        <div className="bg-slate-400 w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]   "></div>
+        <div className=" w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]   "></div>
         <Element elemen={data[103]} />
         <Element elemen={data[104]} />
         <Element elemen={data[105]} />
@@ -153,11 +152,10 @@ function PeriodicTable2({data}) {
         <Element elemen={data[116]} />
         <Element elemen={data[117]} />
       </section>
-
       <section className="flex gap-2 mt-6 xl:mt-16">
-        <div className="bg-slate-400 w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]   "></div>
+        <div className=" w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]   "></div>
         <Element elemen={data[56]} />
         <Element elemen={data[57]} />
         <Element elemen={data[58]} />
@@ -175,9 +173,9 @@ function PeriodicTable2({data}) {
         <Element elemen={data[70]} />
       </section>
       <section className="flex  gap-2 mt-6 ">
-        <div className="bg-slate-400 w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className="bg-slate-400 w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]   "></div>
+        <div className=" w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
+        <div className=" w-[61.78px] h-[80px]   xl:w-[90px] xl:h-[90px]   "></div>
         <Element elemen={data[88]} />
         <Element elemen={data[89]} />
         <Element elemen={data[90]} />
@@ -198,4 +196,4 @@ function PeriodicTable2({data}) {
   );
 }
 
-export default PeriodicTable2
+export  {PeriodicTable};
