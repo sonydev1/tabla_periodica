@@ -5,23 +5,21 @@ function Element({ elemen }) {
     return (
       <div
         style={{ background: elemen.color, color: elemen.textColor }}
-        className="  w-[61.78px] h-[80px] xl:w-[90px] xl:h-[90px]  rounded-md"
+        className="  md:w-[61.78px] md:h-[80px] xl:w-[90px] xl:h-[90px]  rounded-md"
         key={elemen.id}
       >
         <button className="w-full  px-2 ">
-          <div className="flex  justify-between ">
+          <div className="text-end">
             <div>
-              <p className="text-sm xl:text-md ">{elemen.id}</p>
-            </div>
-            <div>
-              <p className="text-[10px] xl:text-[10px] mt-1 ">{elemen.n_atomico}</p>
+              <p className="text-[12px] xl:text-md ">{elemen.id}</p>
             </div>
           </div>
-          <div>
-            <p className="text-3xl  xl:text-4xl font-bold">
+          <div className="text-left">
+            <p className="text-3xl   font-semibold">
               {elemen.simbolo}
             </p>
-            <p className="text-[11px] mt-1">{elemen.name}</p>
+              <p className="text-[8.7px] ">{elemen.n_atomico}</p>
+            <p className=" text-[9px] mt-1 w-9 break-normal">{elemen.name}</p>
           </div>
         </button>
       </div>
