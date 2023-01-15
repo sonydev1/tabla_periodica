@@ -1,27 +1,28 @@
 import React from "react";
 import { Element } from "../components/Element";
+import { Space } from "../components/Space";
 
 function PeriodicTable({ data }) {
   return (
-    <div className="p-4  bg-slate-200 shadow-xl rounded-lg">
-      <section className="flex gap-2 my-2  w-full">
+    <div className="flex-none  p-4  xl:w-[89%]  bg-slate-200 shadow-xl rounded-lg">
+      <section className="flex gap-2 my-2 ">
         <Element elemen={data[0]} />
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]   xl:w-[90px] xl:h-[90px]   "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]   xl:w-[90px] xl:h-[90px]   "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]   xl:w-[90px] xl:h-[90px]   "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]   xl:w-[90px] xl:h-[90px]   "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]   xl:w-[90px] xl:h-[90px]   "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]   xl:w-[90px] xl:h-[90px]   "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]    xl:w-[90px] xl:h-[90px]  "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]    xl:w-[90px] xl:h-[90px]  "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]    xl:w-[90px] xl:h-[90px]  "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]    xl:w-[90px] xl:h-[90px]  "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]    xl:w-[90px] xl:h-[90px]  "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]    xl:w-[90px] xl:h-[90px]  "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]     xl:w-[90px] xl:h-[90px] "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]     xl:w-[90px] xl:h-[90px] "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]     xl:w-[90px] xl:h-[90px] "></div>
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
 
         <Element elemen={data[1]} />
       </section>
@@ -30,16 +31,16 @@ function PeriodicTable({ data }) {
         <Element elemen={data[2]} />
         <Element elemen={data[3]} />
 
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]   xl:w-[90px] xl:h-[90px]   "></div>
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
 
         <Element elemen={data[4]} />
         <Element elemen={data[5]} />
@@ -48,20 +49,21 @@ function PeriodicTable({ data }) {
         <Element elemen={data[8]} />
         <Element elemen={data[9]} />
       </section>
+
       <section className="flex gap-2 mb-2">
         <Element elemen={data[10]} />
         <Element elemen={data[11]} />
 
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]   xl:w-[90px] xl:h-[90px]   "></div>
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
+        <Space />
 
         <Element elemen={data[12]} />
         <Element elemen={data[13]} />
@@ -70,6 +72,7 @@ function PeriodicTable({ data }) {
         <Element elemen={data[16]} />
         <Element elemen={data[17]} />
       </section>
+
       <section className="flex gap-2 mb-2 ">
         <Element elemen={data[18]} />
         <Element elemen={data[19]} />
@@ -90,6 +93,7 @@ function PeriodicTable({ data }) {
         <Element elemen={data[34]} />
         <Element elemen={data[35]} />
       </section>
+
       <section className="flex gap-2 mb-2 ">
         <Element elemen={data[36]} />
         <Element elemen={data[37]} />
@@ -110,10 +114,11 @@ function PeriodicTable({ data }) {
         <Element elemen={data[52]} />
         <Element elemen={data[53]} />
       </section>
+
       <section className="flex gap-2 ">
         <Element elemen={data[54]} />
         <Element elemen={data[55]} />
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]    "></div>
+        <Space />
         <Element elemen={data[71]} />
         <Element elemen={data[72]} />
         <Element elemen={data[73]} />
@@ -130,10 +135,11 @@ function PeriodicTable({ data }) {
         <Element elemen={data[84]} />
         <Element elemen={data[85]} />
       </section>
+
       <section className="flex gap-2 my-2">
         <Element elemen={data[86]} />
         <Element elemen={data[87]} />
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]  xl:w-[90px] xl:h-[90px]   "></div>
+        <Space />
         <Element elemen={data[103]} />
         <Element elemen={data[104]} />
         <Element elemen={data[105]} />
@@ -150,10 +156,11 @@ function PeriodicTable({ data }) {
         <Element elemen={data[116]} />
         <Element elemen={data[117]} />
       </section>
-      <section className="flex gap-2 mt-6 xl:mt-16">
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]   xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]   xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]    xl:w-[90px] xl:h-[90px]   "></div>
+
+      <section className="flex gap-2 mt-10 my-2">
+        <Space />
+        <Space />
+        <Space />
         <Element elemen={data[56]} />
         <Element elemen={data[57]} />
         <Element elemen={data[58]} />
@@ -170,10 +177,11 @@ function PeriodicTable({ data }) {
         <Element elemen={data[69]} />
         <Element elemen={data[70]} />
       </section>
-      <section className="flex w-full  gap-2 mt-6 ">
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]   xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]   xl:w-[90px] xl:h-[90px]    "></div>
-        <div className=" w-[61.78px] h-[80px]  lg:w-[61.78px] lg:h-[80px]    xl:w-[90px] xl:h-[90px]   "></div>
+
+      <section className="flex  gap-2 ">
+        <Space />
+        <Space />
+        <Space />
         <Element elemen={data[88]} />
         <Element elemen={data[89]} />
         <Element elemen={data[90]} />
